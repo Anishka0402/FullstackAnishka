@@ -7,7 +7,7 @@ from form import RegisterForm
 
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "your_secret_key_here"
+app.config["SECRET_KEY"] = "a1b2c3d4e5f678901234567890abcdef1234567890abcdef1234567890abcdef"
 app.config["SQLALCHEMY_DATABASE_URI"] = (
     "postgresql://postgres:Nopassword%1234@localhost/test"
 )
